@@ -2,5 +2,17 @@ h1,p{
     text-align: center;
 }
 
+body{
+    background-color: beige;
+}
+
+img{
+    margin-left: 650px;
+}
+
+button{
+    background-clip: border-box;
+    margin-left: 915px;
+}
 
 
