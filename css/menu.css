@@ -1,20 +1,45 @@
+body{
+    background-image: url(https://github.com/sebas10333417/Reposteria/blob/main/Fondo_menu.jpg?raw=true);
+}
+
 h1{
+    text-align: center;
+    background-color: bisque;
+}
+
+.tortas {
+    background-color: rgba(128, 128, 128, 0.452);
+    height: 50px;
+    width: 100px;
+    border-radius: 15%;
     text-align: center;
 }
 
-h3{
-    float: left;    
-    list-style: none;
-    margin-right: 250px;
-    margin: 250px;
+.productos {
+    display: flex;
+    gap: 350px;
+    margin-left: 100px;
+    text-align: center;
 }
 
-img{
-
-    margin-left: 200px;
+.fondo {
+    background-color: bisque;
+    padding: 15px;
+    border: solid black 2px;
+    border-radius: 5%;
+    box-shadow: 0px 0px 20px gray;
+}
+.links {
+    list-style: none ;
+    display: flex;
+    gap: 550px;
+    margin-left: 130px;
+    
 }
 
-.imagenes{
-    margin-left: 25px;
+.links a {
+    background-color: bisque;
+    border-radius: 10px;
+    border: solid black 2px;
+    color: black    ;
 }
-
